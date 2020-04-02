@@ -81,6 +81,9 @@ taskcluster-urls==12.1.0
 # Required by treeherder.auth
 jose==1.0.0
 
+# Required by config.settings
+furl==2.1.0
+
 # Required by jsonschema
 attrs==19.3.0
 pyrsistent==0.15.7
