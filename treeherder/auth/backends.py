@@ -4,9 +4,9 @@ import time
 
 from django.contrib.auth.models import User
 from django.core.exceptions import ObjectDoesNotExist
+from jose import jwt
 from rest_framework.exceptions import AuthenticationFailed
 
-from jose import jwt
 from treeherder.config.settings import (AUTH0_CLIENTID,
                                         AUTH0_DOMAIN)
 

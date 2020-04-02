@@ -78,15 +78,8 @@ multidict==4.7.4
 yarl==1.4.2
 taskcluster-urls==12.1.0
 
-# Used by python-jose
-rsa==4.0
-pyasn1==0.4.8
-pycryptodome==3.9.4
-ecdsa==0.15
-future==0.18.2
-furl==2.1.0
-orderedmultidict==1.0.1
-first==2.0.2
+# Required by treeherder.auth
+jose==1.0.0
 
 # Required by jsonschema
 attrs==19.3.0
@@ -97,6 +90,3 @@ django-cache-memoize==0.1.6
 jx-bigquery
 jx-mysql
 mo-testing
-
-# Required by treeherder.auth
-jose==1.0.0
