@@ -97,3 +97,6 @@ django-cache-memoize==0.1.6
 jx-bigquery
 jx-mysql
 mo-testing
+
+# Required by treeherder.auth
+jose==1.0.0
