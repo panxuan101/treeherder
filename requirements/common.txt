@@ -424,6 +424,11 @@ taskcluster==27.0.0 \
     --hash=sha256:4905b57911aec5cae2f4530e5571080285ec12cfa7367ce01b7a196fbf19749a \
     --hash=sha256:f79e07b074cd716936b80c2a4583c03be1254376fa36d2ba11932c44cd1af676 \
     # via -r requirements/common.in
+typing==3.7.4.1 \
+    --hash=sha256:91dfe6f3f706ee8cc32d38edbbf304e9b7583fb37108fef38229617f8b3eba23 \
+    --hash=sha256:c8cabb5ab8945cd2f54917be357d134db9cc1eb039e59d1606dc1e60cb1d9d36 \
+    --hash=sha256:f38d83c5a7a7086543a0f649564d661859c5146a85775ab90c0d2f93ffaa9714 \
+    # via -r requirements/common.in
 uritemplate==3.0.1 \
     --hash=sha256:07620c3f3f8eed1f12600845892b0e036a2420acf513c53f7de0abd911a5894f \
     --hash=sha256:5af8ad10cec94f215e3f48112de2022e1d5a37ed427fbd88652fa908f2ab7cae \

@@ -84,6 +84,9 @@ jose==1.0.0
 # Required by config.settings
 furl==2.1.0
 
+# Required for perf and etl/perf
+typing==3.7.4.1
+
 # Required by jsonschema
 attrs==19.3.0
 pyrsistent==0.15.7
